@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #181818 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+@font-face {
+    font-family: Graphik;
+    src: url(../Fonts/GraphikCompact.otf);
+}
+
+/* Nav Bar */
+
+
+.oneitems {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.ho {
+    transition: all .3s !important;
+    position: relative !important;
+}
+
+.ho::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 8px !important;
+    bottom: 0px !important;
+    height: 7px !important;
+    width: 0% !important;
+    background-color: #43B6FF !important;
+    transition: all .3s !important;
+}
+
+.ho:hover::after {
+    width: 70% !important;
+}
+
+.ho:hover {
+    color: #E538B9 !important;
+}
+
+.pro {
+    transition: all .3s !important;
+    position: relative !important;
+}
+
+.pro::before {
+    content: '' !important;
+    position: absolute !important;
+    right: 8px !important;
+    bottom: 0px !important;
+    height: 7px !important;
+    width: 0% !important;
+    background-color: #E538B9 !important;
+    transition: all .3s !important;
+}
+
+.pro:hover::before {
+    width: 73% !important;
+}
+
+.pro:hover {
+    color: #43B6FF !important;
+}
+
+.abo {
+    transition: all .3s !important;
+    position: relative !important;
+}
+
+.abo::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 8px !important;
+    bottom: 0px !important;
+    height: 7px !important;
+    width: 0% !important;
+    background-color: #43B6FF !important;
+    transition: all .3s !important;
+}
+
+.abo:hover::after {
+    width: 70% !important;
+}
+
+.abo:hover {
+    color: #E538B9 !important;
+}
+
+.cont {
+    transition: all .4s !important;
+    position: relative !important;
+}
+
+.cont::before {
+    content: '' !important;
+    position: absolute !important;
+    right: 9px !important;
+    bottom: 0px !important;
+    height: 7px !important;
+    width: 0% !important;
+    background-color: #E538B9 !important;
+    transition: all .4s !important;
+}
+
+.cont:hover::before {
+    width: 75% !important;
+}
+
+.cont:hover {
+    color: #43B6FF !important;
+}
+
+.login {
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    width: 139px !important;
+    height: 52px !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    transition: all .3s !important;
+}
+
+.login:hover {
+    color: #d4d4d4 !important;
+}
+
+@media screen and (max-width: 521px) {
+    .logo {
+        width: 140px !important;
+        height: 53px !important;
+    }
+
+    .login {
+        width: 83px !important;
+        height: 35px !important;
+        margin-left: 30px !important;
+        font-family: 'Graphik' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .login {
+        margin-left: 30% !important;
+    }
+}
+
+
+
+/* First Container */
+
+
+.h1-1 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 80px !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.p1 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.tryforbutt {
+    width: 178px !important;
+    height: 65px !important;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15) !important;
+    border: none !important;
+}
+
+.tryforbutt1 {
+    width: 174px !important;
+    height: 65px !important;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15) !important;
+    border: 2px solid #fff !important;
+    background-color: transparent !important;
+}
+
+@media screen and (max-width: 992px) {
+    .h1-1 {
+        font-family: 'Graphik' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 52px !important;
+        color: #fff !important;
+    }
+}
+
+
+
+/* Second Container */
+
+
+.h1-features {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    color: #fff !important;
+}
+
+.p2 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.p3 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.p4 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-align: start !important;
+}
+
+
+/* Third Container */
+
+
+.h1-contents {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    color: #fff !important;
+}
+
+.p5 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.h3-work {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #000000 !important;
+}
+
+.p6 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #5C5C5C !important;
+}
+
+.signbutt {
+    width: 190px !important;
+    height: 52px !important;
+    border: none !important;
+}
+
+.signbutt1 {
+    width: 157px !important;
+    height: 52px !important;
+    border: none !important;
+}
+
+.seemore {
+    width: 159px !important;
+    height: 52px !important;
+    background-color: transparent !important;
+    border: 1px solid #FFFFFF !important;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15)) !important;
+    color: #fff !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+}
+
+
+/* Partners Section */
+
+
+.h2-partners {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.p7 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    margin: 0 !important;
+    text-align: center !important;
+    padding: 50px !important;
+    padding-top: 0 !important;
+}
+
+.partnersbutt {
+    width: 176px !important;
+    height: 52px !important;
+    background-color: transparent !important;
+    border: 1px solid #FFFFFF !important;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15)) !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    color: #fff !important;
+}
+
+
+/* Testimonials Section */
+
+
+.h1-testi {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.h6-claire {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    letter-spacing: 1px !important;
+}
+
+.card1 {
+    background-color: transparent !important;
+    border: 1px solid #DEDEDE !important;
+    border-radius: 10px !important;
+    height: 328px !important;
+}
+
+.p8 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 26px;
+    letter-spacing: 1px !important;
+    color: #fff !important;
+}
+
+.card2 {
+    background-color: transparent !important;
+    border: 1px solid #DEDEDE !important;
+    border-radius: 10px !important;
+    height: 304px !important;
+}
+
+.card3 {
+    background-color: transparent !important;
+    border: 1px solid #DEDEDE !important;
+    border-radius: 10px !important;
+}
+
+.box12 {
+    background-color: #343434 !important;
+    border: none !important;
+    border-radius: 33px !important;
+}
+
+.h1-opentype {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    color: #fff !important;
+}
+
+.trybutt {
+    width: 232px !important;
+    height: 52px !important;
+    border: none !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    color: #fff !important;
+}
+
+.linechart {
+    border-bottom-right-radius: 33px !important;
+}
+
+
+
+/* Footer */
+
+
+.h6-finger {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.a-navig {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.p-last1 {
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.continfo {
+    padding-right: 90px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .continfo {
+        display: flex !important;
+        justify-content: start !important;
+        padding-left: 40px !important;
+    }
+}
